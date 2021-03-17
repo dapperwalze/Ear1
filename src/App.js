@@ -56,8 +56,15 @@ class App extends Component {
               onClick={this.toggleMobileMenu}
               alt="menu"
             ></img>
-            {this.state.isMenuOpen && (
-              <div className="mobile-menu">
+
+            <div
+              className="mobile-menu"
+              style={{
+                height: this.state.isMenuOpen ? "100vh" : "0vh",
+              }}
+            >
+              {" "}
+              <div className="inner-mobile-menu-container">
                 <span onClick={this.toggleMobileMenu}>Close X</span>
                 <a href="/">Home</a>
                 <a href="/">For Fans</a>
@@ -65,7 +72,7 @@ class App extends Component {
                 <a href="/">Features</a>
                 <a href="/">FAQ's</a>
               </div>
-            )}
+            </div>
           </header>
 
           <main className="main-section">

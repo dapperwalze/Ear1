@@ -52,6 +52,9 @@ a {
 #menu-icon {
   display: none;
 }
+.mobile-menu {
+  display: none;
+}
 #main-nav {
   margin-left: auto;
   margin-right: 60px;
@@ -670,6 +673,9 @@ a {
     margin-top: 20px;
   }
   #menu-icon {
+    display: none;
+  }
+  .mobile-menu {
     display: none;
   }
   #main-nav > ul {
@@ -1297,6 +1303,9 @@ a {
     margin-top: 20px;
   }
   #menu-icon {
+    display: none;
+  }
+  .mobile-menu {
     display: none;
   }
   #main-nav > ul {
@@ -1970,21 +1979,24 @@ a {
     cursor: pointer;
   }
   .mobile-menu {
+    display: block;
     width: 100vw;
-    height: 100vh;
     position: fixed;
     top: 0;
     z-index: 5;
     background-color: #fff;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 90px;
+
     font-family: "DM Sans", sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 54.05px;
     color: #000;
     text-align: center;
+  }
+  .inner-mobile-menu-container {
+    padding-top: 75px;
   }
   .mobile-menu span,
   .mobile-menu a {
@@ -2625,21 +2637,23 @@ a {
     outline: none;
   }
   .mobile-menu {
+    display: block;
     width: 100vw;
-    height: 100vh;
     position: fixed;
     top: 0;
     z-index: 5;
     background-color: #fff;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 55px;
     font-family: "DM Sans", sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 54.05px;
     color: #000;
     text-align: center;
+  }
+  .inner-mobile-menu-container {
+    padding-top: 55px;
   }
   .mobile-menu span,
   .mobile-menu a {
