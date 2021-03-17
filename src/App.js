@@ -414,7 +414,7 @@ class App extends Component {
             </div>
           </div>
           <div>
-            <h5>as</h5>
+            <h5>Links</h5>
             <ul>
               <li>
                 <a href="/">Home</a>
