@@ -63,7 +63,6 @@ class App extends Component {
                 height: this.state.isMenuOpen ? "100vh" : "0vh",
               }}
             >
-              {" "}
               <div className="inner-mobile-menu-container">
                 <span onClick={this.toggleMobileMenu}>Close X</span>
                 <a href="/">Home</a>
@@ -283,8 +282,8 @@ class App extends Component {
               data-aos-once="false"
             >
               <img
-                className="chain-a"
-                src="/images/chain-a.png"
+                className="chain-link"
+                src="/images/chain-link.png"
                 alt="List of features"
               ></img>
               <div className="features-text-content">
