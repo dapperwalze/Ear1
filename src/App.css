@@ -1951,6 +1951,10 @@ a {
     top: 0;
     z-index: 4;
     background-color: #029f58;
+    background-image: url("/src/bg-img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
   .nav-logo {
     padding: 20px;
