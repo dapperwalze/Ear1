@@ -439,6 +439,7 @@ a {
 }
 .inner-feature-boxes:nth-child(2) img {
   width: 510px;
+  align-self: flex-end;
 }
 .big-green-box {
   width: 1200px;
@@ -2382,6 +2383,7 @@ a {
 
   .inner-feature-boxes:nth-child(2) img {
     width: inherit;
+    align-self: flex-end;
   }
   .chain-link {
     align-self: flex-start;
