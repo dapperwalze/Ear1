@@ -163,7 +163,7 @@ a {
 }
 .jumbotron-2 {
   width: 100%;
-  background-color: #fafafa;
+  background-color: #fff;
   background-image: url("/src/bg-img.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -524,7 +524,7 @@ a {
   margin: 0 auto;
 }
 .footer-container > div {
-  background-color: #fafafa;
+  background-color: #fff;
   padding: 20px;
 }
 #email-container {
@@ -787,7 +787,7 @@ a {
   }
   .jumbotron-2 {
     width: 100%;
-    background-color: #fafafa;
+    background-color: #fff;
     background-image: url("/src/bg-img.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -1158,7 +1158,7 @@ a {
     margin: 0 auto;
   }
   .footer-container > div {
-    background-color: #fafafa;
+    background-color: #fff;
     padding: 20px;
   }
   #email-container {
@@ -1422,7 +1422,7 @@ a {
   }
   .jumbotron-2 {
     width: 100%;
-    background-color: #fafafa;
+    background-color: #fff;
     background-image: url("/src/bg-img.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -1821,7 +1821,7 @@ a {
     margin: 200px auto auto;
   }
   .footer-container > div {
-    background-color: #fafafa;
+    background-color: #fff;
     padding: 5px 20px;
   }
   .footer-container > div:nth-child(2) {
@@ -2005,7 +2005,7 @@ a {
     position: fixed;
     top: 0;
     z-index: 5;
-    background-color: #fafafa;
+    background-color: #fff;
     overflow: hidden;
     transition: 0.5s;
 
@@ -2114,7 +2114,7 @@ a {
   }
   .jumbotron-2 {
     width: 100%;
-    background-color: #fafafa;
+    background-color: #fff;
     background-image: url("/src/bg-img.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -2507,7 +2507,7 @@ a {
   }
   .footer-container > div {
     width: 100%;
-    background-color: #fafafa;
+    background-color: #fff;
     padding: 5px 20px;
   }
 
@@ -2664,7 +2664,7 @@ a {
     position: fixed;
     top: 0;
     z-index: 5;
-    background-color: #fafafa;
+    background-color: #fff;
     overflow: hidden;
     transition: 0.5s;
     font-family: "DM Sans", sans-serif;
