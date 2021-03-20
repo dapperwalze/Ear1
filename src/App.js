@@ -76,11 +76,13 @@ class App extends Component {
 
           <main className="main-section">
             <div className="headline-container">
-              <p className="headline">Build direct, meaningful connections.</p>
-              <p className="tagline">
+              <h1 className="headline">
+                Build direct, meaningful connections.
+              </h1>
+              <h2 className="tagline">
                 Ear1 helps you connect directly with your favourite influencers
                 for a small fee. What’s more? We assure you of getting a reply.
-              </p>
+              </h2>
               <div className="store-button-container">
                 <a
                   href="/"
@@ -139,7 +141,7 @@ class App extends Component {
         <div className="jumbotron-2">
           <div className="text-box">
             <img src="/images/small-brand-logo.png" alt="ear1 logo"></img>
-            <h3>What can Ear1 help you do?</h3>
+            <h2>What can Ear1 help you do?</h2>
             <p>
               Are you an individual looking to connect with an influencer
               without the hassle of waiting for the reply over a long time, or

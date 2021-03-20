@@ -179,7 +179,7 @@ a {
   width: 60%;
   padding: 20px 150px 70px 150px;
 }
-.text-box h3 {
+.text-box h2 {
   color: #007640;
   font-family: "DM Sans", sans-serif;
   font-size: 80px;
@@ -803,7 +803,7 @@ a {
     width: 60%;
     padding: 20px 50px 70px 50px;
   }
-  .text-box h3 {
+  .text-box h2 {
     color: #007640;
     font-family: "DM Sans", sans-serif;
     font-size: 80px;
@@ -1260,7 +1260,7 @@ a {
     margin-top: 15px;
   }
 }
-@media only screen and (min-width: 601px) and (max-width: 768px) {
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
   html {
     box-sizing: border-box;
     overflow-x: hidden;
@@ -1335,7 +1335,7 @@ a {
   #main-nav > ul > li > a {
     padding: 15px;
     font-family: "DM Sans", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
   }
   .main-section {
@@ -1439,7 +1439,701 @@ a {
     padding: 40px 40px 60px;
     position: relative;
   }
-  .text-box h3 {
+  .text-box h2 {
+    color: #007640;
+    font-family: "DM Sans", sans-serif;
+    font-size: 34px;
+    font-style: medium;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: -3%;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+    margin-top: 50px;
+  }
+  .text-box p {
+    font-family: "DM Sans", sans-serif;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: justify;
+    margin-top: -30px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .text-box > img {
+    position: absolute;
+    left: 20px;
+    z-index: 1;
+  }
+  .image-box {
+    width: 40%;
+    padding: 0px 30px;
+  }
+  .image-box img {
+    width: 400px;
+  }
+
+  .jumbotron-3 {
+    width: 100%;
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .jumbotron-3 > .left-box {
+    width: 100%;
+    padding: 80px 150px;
+    order: 1;
+  }
+  .pill {
+    margin-top: 15px;
+  }
+  .jumbotron-3 > .left-box h2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 101.6%;
+    letter-spacing: -0.03em;
+    text-align: left;
+  }
+  .jumbotron-3 > .left-box p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .jumbotron-3 .right-box {
+    width: 100%;
+    order: 2;
+    padding: 65px 130px 120px 129px;
+  }
+  .jumbotron-3 .right-box img {
+    width: inherit;
+    height: inherit;
+  }
+  .jumbotron-4 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .jumbotron-4 .left-box {
+    width: 100%;
+    height: inherit;
+    background: #039352;
+    background-image: url("bg-img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 90px 150px;
+  }
+  #left-box-chat-icon {
+    float: right;
+  }
+
+  .jumbotron-4 > .left-box h2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 34px;
+    font-style: 500;
+    color: #fff;
+    font-weight: 500;
+    line-height: 101.6%;
+    letter-spacing: -0.03em;
+    text-align: left;
+  }
+  .jumbotron-4 > .left-box p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    color: #fff;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 0.9;
+  }
+  .jumbotron-4 .right-box img {
+    display: unset;
+  }
+
+  .jumbotron-4 .right-box {
+    width: 100%;
+    overflow: hidden;
+    height: 500px;
+    background-image: url("/src/conversation.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+  }
+
+  .jumbotron-5 {
+    width: 100%;
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .jumbotron-5 .left-box {
+    width: 100%;
+    height: 650px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .jumbotron-5 .left-box img {
+    width: 432px;
+    position: relative;
+    top: 100px;
+    left: 200px;
+  }
+  .jumbotron-5 .right-box {
+    width: 100%;
+    padding: 90px 150px;
+  }
+
+  .jumbotron-5 > .right-box h2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    color: #000;
+    font-weight: 500;
+    line-height: 101.6%;
+    letter-spacing: -0.03em;
+    text-align: left;
+  }
+  .jumbotron-5 > .right-box p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    color: #000;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 0.6;
+  }
+
+  .jumbotron-6 {
+    width: 100%;
+    background: #272727;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .jumbotron-6 .left-box {
+    width: 100%;
+    height: inherit;
+    background: #272727;
+  }
+  .jumbotron-6 .left-box img {
+    margin-left: 8%;
+    width: 584px;
+    height: inherit;
+  }
+  .jumbotron-6 .right-box {
+    width: 100%;
+    height: inherit;
+    background: #272727;
+    padding: 30px 150px 90px;
+  }
+  #filter-icon {
+    float: right;
+  }
+
+  .jumbotron-6 > .right-box h2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    color: #fff;
+    font-weight: 500;
+    line-height: 101.1%;
+    letter-spacing: -0.03em;
+    text-align: left;
+  }
+  .jumbotron-6 > .right-box p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    color: #fff;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 0.6;
+  }
+  .jumbotron-7 {
+    width: 100%;
+    background: #fff;
+    padding: 20px 20px 0px 20px;
+  }
+  .jumbotron-7 > h2 {
+    width: 100%;
+    color: #007640;
+    font-family: "DM Sans", sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 101.6%;
+    letter-spacing: -0.03em;
+    text-align: left;
+  }
+  .feature-box {
+    width: 100%;
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .inner-feature-boxes {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .left-inner-feature-box {
+    padding: 20px 20px 0px 30px;
+    display: flex;
+  }
+  .inner-feature-boxes:nth-child(2) img {
+    width: 350px;
+    position: relative;
+    top: 50px;
+  }
+  .chain-link {
+    align-self: flex-start;
+    height: 350px;
+    margin-top: 3px;
+  }
+  .features-text-content {
+    padding-left: 20px;
+  }
+  .features-text-content > h4 {
+    margin: 0px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 116.6%;
+    letter-spacing: -0.03em;
+    text-align: left;
+  }
+  .features-text-content > p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    color: #121212;
+    opacity: 0.6;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0em;
+    line-height: 150%;
+    text-align: left;
+    margin-bottom: 73px;
+  }
+  .big-green-box {
+    background-color: #029f58;
+    background-image: url("/src/bg-img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 100px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    bottom: 80px;
+    width: 100%;
+    margin-bottom: -150px;
+  }
+  .left-container {
+    width: 40%;
+    border-radius: 100px;
+    padding: 90px 73px 0px 64px;
+  }
+  .left-container > img {
+    width: 280px;
+    margin: 0;
+    position: relative;
+    top: 2.4px;
+  }
+  .right-container {
+    width: 60%;
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+  .right-container > div {
+    padding: 50px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+  .right-container h2 {
+    font-family: "DM Sans", sans-serif;
+    color: #fff;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 101.6%;
+    letter-spacing: -0.03em;
+    text-align: left;
+    margin: 0;
+  }
+  .right-container p {
+    font-family: "DM Sans", sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+  }
+  .bottom-store-buttons {
+    outline: none;
+    width: 242px;
+    padding: 0px;
+    border-radius: 7px;
+    border: none;
+    margin-top: 20px;
+  }
+  .bottom-store-buttons img {
+    width: 242px;
+  }
+
+  .footer-container {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 30px 0px;
+    margin: 200px auto auto;
+  }
+  .footer-container > div {
+    background-color: #fff;
+    padding: 5px 20px;
+  }
+  .footer-container > div:nth-child(2) {
+    width: 100%;
+  }
+
+  #email-container {
+    text-align: left;
+  }
+  #email-subscription-headline {
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 150%;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  #email-subscription-headline > span {
+    font-weight: 700;
+  }
+  #email-field {
+    width: 100%;
+    height: 56px;
+    border: 1px solid rgba(18, 18, 18, 0.3);
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 0px;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.75);
+    padding-left: 15px;
+  }
+  #subscribe-button {
+    width: 100%;
+    height: 56px;
+    background: #121212;
+    border-radius: 0px;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    position: relative;
+    top: 5.5px;
+    cursor: pointer;
+  }
+  .footer-container h5 {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 150%;
+    color: #121212;
+    margin-bottom: 20px;
+  }
+  .footer-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .footer-container li {
+    padding: 10px 0px;
+    display: block;
+  }
+  .footer-container a {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #121212;
+    margin: 0px;
+  }
+  .footer-logo-container {
+    padding-top: 40px !important;
+    display: flex;
+  }
+  .footer-brand {
+    font-size: 40px;
+    padding: 0;
+  }
+  .footer-logo > img {
+    width: 30px;
+    height: 35px;
+  }
+  .footer-logo {
+    padding: 50px 0px 0px 0px;
+  }
+  .footer-logo a img {
+    width: 48px;
+    height: 48px;
+    margin-right: 15px;
+  }
+  .social-media-handles {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  a {
+    text-decoration: none;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  .App {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .jumbotron-1 {
+    max-width: 100%;
+    background-color: #029f58;
+    background-image: url("/src/bg-img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .header {
+    width: 100%;
+    display: block;
+    background-color: #029f58;
+    background-image: url("/src/bg-img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .nav-logo {
+    padding: 20px;
+    display: flex;
+    float: left;
+    margin-left: 0px;
+  }
+  .nav-logo img {
+    align-self: center;
+  }
+  .nav-brand {
+    font-family: "DM Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #000;
+    margin-left: 3px;
+    align-self: center;
+  }
+  #main-nav {
+    display: none;
+  }
+  #menu-icon {
+    display: block;
+    float: right;
+    margin: 35px;
+    cursor: pointer;
+  }
+  .mobile-menu {
+    display: block;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    background-color: #fff;
+    overflow: hidden;
+    transition: 0.5s;
+
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 54.05px;
+    color: #000;
+    text-align: center;
+  }
+  .inner-mobile-menu-container {
+    padding-top: 75px;
+  }
+  .mobile-menu span,
+  .mobile-menu a {
+    font-family: "DM Sans", sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 54.05px;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .mobile-menu a:active {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 54.05px;
+    color: #007640;
+    text-decoration: none;
+  }
+  .main-section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin-top: 0px;
+  }
+  .headline-container {
+    max-width: 100%;
+    padding: 0px 30px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .headline {
+    font-family: "DM Sans", sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 54.05px;
+    color: #fff;
+  }
+  .tagline {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+    margin-top: -40px;
+  }
+  .store-button-container {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+  .top-store-buttons {
+    outline: none;
+    width: 242px;
+    padding: 0px;
+    border-radius: 7px;
+    border: none;
+    margin: 0px 10px 30px 0px;
+  }
+  .top-store-buttons img {
+    width: 242px;
+  }
+  .phones-container {
+    min-height: 403px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+  }
+  #phone1 {
+    width: 260px;
+    position: absolute;
+    top: 165px;
+    margin-top: 65px;
+    margin-right: 350px;
+    transform: rotate(-22.7deg);
+  }
+  #phone2 {
+    width: 260px;
+    position: absolute;
+    margin-right: -350px;
+    margin-top: 65px;
+    top: 165px;
+    transform: rotate(22.7deg);
+  }
+  #phone3 {
+    width: 270px;
+    position: absolute;
+    top: 0;
+    margin-top: 100px;
+  }
+  .jumbotron-2 {
+    width: 100%;
+    background-color: #fff;
+    background-image: url("/src/bg-img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  .text-box {
+    background-color: transparent;
+    margin: 0px;
+    text-align: left;
+    width: 60%;
+    padding: 40px 40px 60px;
+    position: relative;
+  }
+  .text-box h2 {
     color: #007640;
     font-family: "DM Sans", sans-serif;
     font-size: 34px;
@@ -1956,17 +2650,12 @@ a {
     background-position: center;
     background-size: cover;
     position: relative;
-    top: 50px;
-    padding-top: 20px;
+    top: 0px;
+    padding-top: 0px;
   }
   .header {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    position: fixed;
-    overflow: hidden;
-    top: 0;
-    z-index: 4;
+    display: block;
     background-color: #029f58;
     background-image: url("/src/bg-img.png");
     background-repeat: no-repeat;
@@ -1976,7 +2665,7 @@ a {
   .nav-logo {
     padding: 20px;
     display: flex;
-    flex-wrap: wrap;
+    float: left;
     margin-left: 0px;
   }
   .nav-logo img {
@@ -1995,8 +2684,8 @@ a {
   }
   #menu-icon {
     display: block;
-    position: relative;
-    right: -45%;
+    float: right;
+    margin: 30px 30px;
     cursor: pointer;
   }
   .mobile-menu {
@@ -2071,7 +2760,7 @@ a {
     text-align: center;
     color: #fff;
     padding: 15px;
-    margin-top: -60px;
+    margin-top: -35px;
   }
   .store-button-container {
     margin-top: 30px;
@@ -2109,7 +2798,7 @@ a {
   #phone3 {
     width: 180px;
     position: relative;
-    top: 0;
+    top: 9px;
     margin-top: 0;
   }
   .jumbotron-2 {
@@ -2134,7 +2823,7 @@ a {
     padding: 20px 20px 40px;
     position: relative;
   }
-  .text-box h3 {
+  .text-box h2 {
     color: #007640;
     font-family: "DM Sans", sans-serif;
     font-size: 34px;
